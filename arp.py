@@ -3,6 +3,9 @@ import os
 import sys
 import threading
 
+# Author: Osanda Malith Jayathissa
+# http://osandamalith.wordpress.com
+
 # interface    = "eth0"
 # target_ip    = "192.168.1.3"
 # gateway_ip   = "192.168.1.1"
