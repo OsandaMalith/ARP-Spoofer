@@ -161,6 +161,12 @@ def arpscanner(ips):
 def main():
     while True:
         print '''
+[*] Welcome to Simple ARP Spoofer
+[*] Author: Osanda Malith Jayathissa
+[*] Follow @OsandaMalith
+
+Choose a Option:
+
 1. Scan IP range
 2. ARP Scanner
 3. Perform ARP Attack
@@ -172,6 +178,7 @@ def main():
         if inp == 2:
             ips = str(raw_input("Enter your IP Range: "))
             arpscanner(ips)
+            break
         elif inp == 3:
             break
 
