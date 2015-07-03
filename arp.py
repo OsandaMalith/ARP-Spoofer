@@ -183,7 +183,7 @@ def main():
 
 Choose a Option:
 
-1. Scan IP range
+1. Scan IP range (hunt for windows hosts)
 2. ARP Scanner
 3. Perform ARP Attack
 '''
