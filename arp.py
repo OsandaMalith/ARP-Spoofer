@@ -246,6 +246,7 @@ Choose a Option:
         # write out the captured packets
         print "[*] Writing packets to arper.pcap"
         wrpcap('arper.pcap',packets)
+        global poisoning
         poisoning = False
         time.sleep(2)
         ARP_Obj.restore_target()
